@@ -9,7 +9,7 @@ console.log("🎮 CMPM 121 - Starting...");
 
 let counter: number = 0;
 
-window.addEventListener("DOMContentLoaded", () => {
+globalThis.addEventListener("DOMContentLoaded", () => {
   // Create basic HTML structure
   document.body.innerHTML = `
     <h1>CMPM 121 Project</h1>
