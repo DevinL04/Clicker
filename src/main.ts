@@ -20,6 +20,13 @@ document.body.innerHTML = `
 const button = document.getElementById("increment")!;
 const counterElement = document.getElementById("counter")!;
 
+// Change button color
+button.style.backgroundColor = "lightblue";
+button.style.color = "white";
+button.style.padding = "10px 20px";
+button.style.borderRadius = "5px";
+
+
 button.addEventListener("click", () => {
   // This looks like to a good place to add some logic!
   counter += 67;
